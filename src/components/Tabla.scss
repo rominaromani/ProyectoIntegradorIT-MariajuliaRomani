@@ -1,0 +1,61 @@
+.tabla-alta {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-weight: 300;
+
+    thead {
+        background-color: #647B6E;
+        color: white;
+
+        th {
+            padding: 0.8rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ccc;
+        }
+    }
+
+    tbody {
+        tr {
+            &:nth-child(even) {
+                background-color: #f8f8f8;
+            }
+
+            &:hover {
+                background-color: #e6e6e6;
+            }
+
+            td {
+                padding: 0.8rem;
+                border-bottom: 1px solid #ccc;
+
+                &:last-child {
+                    text-align: center;
+                }
+
+                button {
+                    margin-right: 0.5rem;
+                    padding: 0.5rem;
+                    border: 1px solid #333;
+                    background-color: white;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #647B6E;
+                        color: white;
+                    }
+                }
+
+                .img-row {
+                    width: 65px;
+                    height: 65px;
+                    object-fit: cover;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

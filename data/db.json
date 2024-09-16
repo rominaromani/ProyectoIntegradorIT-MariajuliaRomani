@@ -1,0 +1,242 @@
+{
+  "productos": [
+    {
+      "nombre": "BLUSA SATÍN LISO",
+      "foto": "/img/img1.webp",
+      "detalles": "Blusa de satín en color liso, ideal para eventos formales.",
+      "precio": 100,
+      "stock": 4444,
+      "marca": "FashionCo",
+      "categoria": "Ropa",
+      "id": 1,
+      "envio": false
+    },
+    {
+      "nombre": "VESTIDO STRAPPES FANCY",
+      "foto": "/img/img2.webp",
+      "detalles": "Vestido elegante con tirantes, para eventos de noche.",
+      "precio": 240.3,
+      "stock": 4,
+      "marca": "FashionCo",
+      "categoria": "Ropa",
+      "id": 2,
+      "envio": true
+    },
+    {
+      "nombre": "LONG DRESS LIGERO CON TIRANTES",
+      "foto": "/img/img3.webp",
+      "detalles": "Vestido largo y ligero, ideal para días de verano.",
+      "precio": 985,
+      "stock": 4,
+      "marca": "Sleek Cotton",
+      "categoria": "Ropa",
+      "id": 3,
+      "envio": false
+    },
+    {
+      "nombre": "SWEATER TEJIDO CON BOTONES",
+      "foto": "/img/img4.webp",
+      "precio": 100,
+      "detalles": "Suéter tejido con botones, cómodo y cálido.",
+      "stock": 7,
+      "marca": "Rustic Wool",
+      "categoria": "Ropa",
+      "id": 4,
+      "envio": true
+    },
+    {
+      "nombre": "SWEATER TEJIDO CON RAYAS",
+      "foto": "/img/img5.webp",
+      "detalles": "Suéter con rayas en varios colores.",
+      "precio": 1200,
+      "stock": 4,
+      "marca": "Rustic Wool",
+      "categoria": "Ropa",
+      "id": 5,
+      "envio": true
+    },
+    {
+      "id": 6,
+      "nombre": "BLUSA SATÍN LISO",
+      "foto": "/img/img6.webp",
+      "precio": 332.22,
+      "stock": 4,
+      "marca": "FashionCo",
+      "categoria": "Ropa",
+      "detalles": "Blusa satinada, cómoda y elegante.",
+      "envio": true
+    },
+    {
+      "id": 7,
+      "nombre": "SWEATER TEJIDO CON RAYAS",
+      "foto": "/img/img7.webp",
+      "precio": 333.22,
+      "stock": 2,
+      "marca": "Rustic Wool",
+      "categoria": "Ropa",
+      "detalles": "Suéter tejido con patrón de rayas, cálido y suave.",
+      "envio": false
+    },
+    {
+      "id": 8,
+      "nombre": "SWEATER BÁSICO CON CIERRE",
+      "foto": "/img/img8.webp",
+      "precio": 2333,
+      "stock": 2,
+      "marca": "FashionCo",
+      "categoria": "Ropa",
+      "detalles": "Suéter básico con cierre, ideal para el invierno.",
+      "envio": true
+    },
+    {
+      "id": 9,
+      "nombre": "CROP TOP SLIM FIT STRAPPY",
+      "foto": "/img/img9.webp",
+      "precio": 2333,
+      "stock": 2,
+      "marca": "FashionCo",
+      "categoria": "Ropa",
+      "detalles": "Crop top ajustado con tirantes.",
+      "envio": true
+    },
+    {
+      "id": 10,
+      "nombre": "CROP TOP SLIM FIT DE PUNTO CON ABERTURAS",
+      "foto": "/img/img10.webp",
+      "precio": 2333,
+      "stock": 2,
+      "marca": "FashionCo",
+      "categoria": "Ropa",
+      "detalles": "Crop top con aberturas frontales, ideal para un look casual.",
+      "envio": true
+    }
+  ],
+  "carrito": [
+    [
+      {
+        "nombre": "BLUSA SATÍN LISO",
+        "foto": "/img/img1.webp",
+        "detalles": "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+        "precio": 250.5,
+        "stock": "4444",
+        "marca": "Apple",
+        "categoria": "celulares",
+        "id": 1,
+        "envio": false,
+        "cantidad": 3
+      },
+      {
+        "nombre": "VESTIDO STRAPPES FANCY",
+        "foto": "/img/img2.webp",
+        "detalles": "Quasi cupiditate quisquam facere molestiae",
+        "precio": 240.3,
+        "stock": "4",
+        "marca": "Apple",
+        "categoria": "celulares",
+        "id": 2,
+        "envio": true,
+        "cantidad": 1
+      },
+      {
+        "nombre": "LONG DRESS LIGERO CON TIRANTES",
+        "foto": "/img/img3.webp",
+        "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
+        "precio": 985,
+        "stock": 4,
+        "marca": "Sleek Cotton Chips",
+        "categoria": "Refined",
+        "id": 3,
+        "envio": false,
+        "cantidad": 3
+      },
+      {
+        "nombre": "SWEATER TEJIDO CON BOTONES",
+        "foto": "/img/img4.webp",
+        "detalles": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "precio": 678,
+        "stock": 7,
+        "marca": "Rustic Soft Tuna",
+        "categoria": "Generic",
+        "id": 4,
+        "envio": true,
+        "cantidad": 1
+      },
+      {
+        "nombre": "SWEATER TEJIDO CON RAYAS",
+        "foto": "/img/img5.webp",
+        "detalles": "Facere molestiae odio neque rerum provident voluptas",
+        "precio": 1200,
+        "stock": 4,
+        "marca": "Samsung",
+        "categoria": "celulares",
+        "id": 5,
+        "envio": true,
+        "cantidad": 1
+      }
+    ],
+    [
+      {
+        "id": 6,
+        "nombre": "BLUSA SATÍN LISO",
+        "foto": "/img/img6.webp",
+        "precio": 332.22,
+        "stock": 4,
+        "marca": "Google",
+        "categoria": "Electronica",
+        "detalles": "Natus iure quasi cupiditate quisquam facere molestiae odio neque rerum provident voluptas!",
+        "envio": true,
+        "cantidad": 1
+      },
+      {
+        "id": 7,
+        "nombre": "SWEATER TEJIDO CON RAYAS",
+        "foto": "/img/img7.webp",
+        "precio": 333.22,
+        "stock": 2,
+        "marca": "DJI",
+        "categoria": "Drones",
+        "detalles": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "envio": false,
+        "cantidad": 3
+      }
+    ],
+    [
+      {
+        "nombre": "SWEATER BÁSICO CON CIERRE",
+        "foto": "/img/img8.webp",
+        "detalles": "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+        "precio": 250.5,
+        "stock": "4444",
+        "marca": "Apple",
+        "categoria": "celulares",
+        "id": 1,
+        "envio": false,
+        "cantidad": 1
+      },
+      {
+        "nombre": "CROP TOP SLIM FIT STRAPPY",
+        "foto": "/img/img9.webp",
+        "detalles": "Quasi cupiditate quisquam facere molestiae",
+        "precio": 240.3,
+        "stock": "4",
+        "marca": "Apple",
+        "categoria": "celulares",
+        "id": 2,
+        "envio": true,
+        "cantidad": 1
+      },
+      {
+        "nombre": "CROP TOP SLIM FIT DE PUNTO CON ABERTURAS FRONTALES",
+        "foto": "/img/img10.webp",
+        "detalles": "Saepe enim ipsa facilis velit quidem voluptatibus totam dicta",
+        "precio": 985,
+        "stock": 4,
+        "marca": "Sleek Cotton Chips",
+        "categoria": "Refined",
+        "id": 3,
+        "envio": false,
+        "cantidad": 1
+      }
+    ]
+  ]
+}

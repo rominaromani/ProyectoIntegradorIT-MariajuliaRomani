@@ -1,0 +1,59 @@
+.section-cards {
+    padding: 1rem;
+
+    &__header {
+        position: relative;
+        margin-bottom: 20px;
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: lighter;
+            margin-bottom: 20px;
+            color: #647B6E;
+
+            &:before,
+            &:after {
+                content: "";
+                display: inline-block;
+                width: 40%;
+                margin: 0 10px;
+                height: 0.5px;
+                background-color: #647B6E;
+                vertical-align: middle;
+            }
+
+            &:before {
+                right: 100%;
+                margin-right: 15px;
+            }
+
+            &:after {
+                left: 100%;
+                margin-left: 15px;
+            }
+        }
+
+        p {
+            padding-left: 2rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        &__header h1:after, h1:before {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin: 15px auto;
+        }
+    }
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}

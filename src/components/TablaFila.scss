@@ -1,0 +1,25 @@
+tr {
+    td {
+      border-bottom: 1px solid #647B6E;
+  
+      button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+  
+        &:hover {
+          transform: scale(1.1);
+        }
+  
+      }
+    }
+  }
+
+.acciones{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  

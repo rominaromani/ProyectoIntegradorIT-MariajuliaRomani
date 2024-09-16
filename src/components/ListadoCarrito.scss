@@ -1,0 +1,109 @@
+
+.body-carrito{
+  text-align: center;
+}
+.tabla-carrito {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-collapse: collapse;
+  
+    th, td {
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+  
+    th {
+      background-color: #f4f4f4;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: #666;
+    }
+  
+    .cantidad-input {
+      width: 50px;
+      text-align: center;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  }
+  
+  .carrito-total {
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    text-align: left;
+
+    span {
+      font-weight: bold;
+      color: #647B6E;
+    }
+}
+
+  
+  .btn-limpiar, .btn-comprar {
+    display: inline-block;
+    margin: 1rem 0.5rem;
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-weight: 300;
+    
+    &:hover {
+      background-color: #647B6E;
+      color: white;
+    }
+  }
+
+
+  .acciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.modificar-cantidad {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+
+    .btn-modificar {
+        color: #647B6E;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 1rem;
+        padding: 0;
+        color: #647B6E;
+        margin: 0;
+    }
+}
+
+.inc{
+  padding: 0px;
+  margin: 0px;
+}
+
+.dec{
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #333;
+  background-color: white;
+  cursor: pointer;
+}
+
+  

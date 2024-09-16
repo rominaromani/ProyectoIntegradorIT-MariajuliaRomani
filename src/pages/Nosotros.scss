@@ -1,0 +1,79 @@
+.marca-section{
+    padding: 1rem;
+    &__header {
+        position: relative;
+    
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight:lighter;
+            margin-bottom: 20px;
+            color: #647B6E;
+    
+          &:before,
+          &:after {
+            content: "";
+            display: inline-block;
+            width: 29.7rem;
+            margin: 0 10px;
+            height: 0.5px;
+            background-color: #647B6E;
+            vertical-align: middle;
+          }
+        }
+      }
+
+    &__images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        position: relative;
+    }
+    
+    &__image {
+        width: 300px;
+        height: auto;
+        margin: 0 10px;
+    }
+    
+    &__description {
+        color: #555;
+        margin: 20px 0;
+        width: 40%;
+        text-align: justify;
+        margin: auto;
+        padding-bottom: 2em;
+
+        @media (max-width: 768px) {
+            width: 80%;
+        }
+    }
+    
+    &__image--left {
+        order: 1;
+        position: absolute;
+        left: 24rem;
+        width: 160px;
+    }
+    
+    &__image--right {
+        order: 2;
+    }
+
+    @media (max-width: 768px) {
+
+        &__header h1:after, h1:before {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin: 15px auto;
+        }
+
+        &__image--left{
+            left: 25px;
+        }
+    }
+
+}
